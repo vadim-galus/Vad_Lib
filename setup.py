@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="<vad_lib>",
+    name="vad_lib",
     version="0.0.1",
     author="<author>",
     author_email="<author_email>",
@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
 
-    entry_points={"console_scripts": ["<vad_lib> = <vad_lib>.main:download"]},
+    entry_points={"console_scripts": ["vad_lib = vad_lib.main:download"]},
 )
