@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
 
-    entry_points={"console_scripts": ["vad_lib = vad_lib.main:download"]},
+    entry_points={"console_scripts": ["vad_lib = vad_lib.main:main"]},
 )
