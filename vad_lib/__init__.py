@@ -1,1 +1,1 @@
-from .main import download
+from vad_lib.main import download
